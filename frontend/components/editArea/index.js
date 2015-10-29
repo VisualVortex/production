@@ -2,8 +2,8 @@ import React from 'react';
 import MessageActions from '../../actions/message';
 import UserActions from '../../actions/usersList.js';
 import TextareaSize from 'react-textarea-autosize';
-const ENTER_KEY_CODE = 13; // код клавиши enter
-const ESC_KEY_CODE = 27; // код клавиши esc
+const ENTER_KEY_CODE = 13;
+const ESC_KEY_CODE = 27;
 
 export default class EditArea extends React.Component {
 
